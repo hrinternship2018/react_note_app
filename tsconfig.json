@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es6",
+    "module": "es6",
+    "jsx": "react",
+    "rootDir": "src",
+    "outDir": "artifacts",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "preserveConstEnums": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "noImplicitReturns": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+  },
+  "exclude": [
+    "App.js",
+    "index.js",
+    "babel.config.js",
+    "metro.config.js",
+    "android",
+    "ios",
+    "artifacts",
+    "build",
+    "node_modules",
+    "__tests__",
+  ],
+  "compileOnSave": false
+}

@@ -1,11 +1,13 @@
 {
-  "name": "noteProject",
+  "name": "note_project",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "android": "react-native run-android",
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc",
+    "watch": "tsc --watch"
   },
   "dependencies": {
     "react": "16.8.3",
